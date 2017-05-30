@@ -1,0 +1,53 @@
+<div id="research">
+    <h1>Research</h1>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/meleResearch"><button class="unitResearchButton">Research mele units</button></a>
+    </div>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/rangeResearch"><button class="unitResearchButton">Research range units</button></a>
+    </div>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/machineResearch"><button class="unitResearchButton">Research machines</button></a>
+    </div>
+    <div class="timer">
+        <p>Researching:</p>
+        <p>Level:</p>
+        <p>Time left:</p>
+    </div>
+    <div class="research1">
+        <h1>Upgrade health</h1>
+        <div class="floatElem">
+            <img src="https://cdn3.iconfinder.com/data/icons/medical-5-1/512/vaccine_wellness_syringe_shot-512.png" alt="health up" />
+        </div>
+        <div class="floatElem">
+            <p>This upgrade will increase the hit points of the mele units.</p>
+            </br>
+            <p>Resources required:</p>
+            </br>
+            <h1>Level: {{user.researches.melee1.health}}</h1>
+            <div id="researchMeleUnit1ButtonDiv">
+                <button id="researchMeleUnit1Button" ng-click="user.startUpgrading(melee1_health)">Research</button>
+            </div>
+        </div>
+        <h2></h2>
+    </div>
+    <div class="research1">
+        <h1>Upgrade attack</h1>
+        <div class="floatElem">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/c6/bc/be/c6bcbed4db4c7662850e605710afa4bd.jpg" alt="attack power up"
+            />
+        </div>
+        <div class="floatElem">
+            <p>This upgrade will increase the attack power of the mele units.</p>
+            </br>
+            <p>Resources required:</p>
+            </br>
+            <h1>Level:{{user.researches.melee1.attack}}</h1>
+            <div id="researchMeleUnit1ButtonDiv">
+                <button id="researchMeleUnit1Button" ng-click="user.startUpgrading(melee1_attack)">Research</button>
+            </div>
+        </div>
+        <h2></h2>
+    </div>
+
+</div>

@@ -1,0 +1,618 @@
+#gameDiv{
+    width: 1170px;
+    height: auto;
+    box-sizing: border-box;
+    display: none;
+}
+nav{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+div#profileDiv{
+    width: 300px;
+    height: auto;
+    /*border: 1px solid yellowgreen;*/
+    display: inline-block;
+}
+div#profileDiv > img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 113.5px;
+}
+div#profileDiv > p{
+    padding: 5px;
+    font-size: 1.3em;
+    color: darkseagreen;
+    text-align: center;
+}
+#firstLine{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 930px;
+    height: 80px;
+    /*border: 1px solid yellow;*/
+    position: absolute;
+    left: 365px; 
+    top: 40px;
+}
+div#firstLine > p{
+    padding: 5px;
+    font-size: 1.3em;
+    color: wheat;
+    text-align: center;
+}
+#secondLine{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 930px;
+    height: 40px;
+    /*border: 1px solid yellow;*/
+    position: absolute;
+    left: 365px;
+    top: 130px;
+}
+#secondLine > .resorses{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 180px;
+    height: auto;
+    color: wheat;
+    font-size: 1.3em;
+}
+#secondLine > .resorses > p{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+#secondLine > .resorses > p:hover{
+    background-color: rgb(3, 11, 165);
+    box-shadow: 0.5px 0.5px 2px 2px red;
+}
+div#menuDiv{
+    margin-top: 20px;
+    position: absolute;
+    top: 175px;
+    left: 51px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    /*border: 1px solid goldenrod;*/
+}
+div#menuDiv > ul > a > li{
+    color: rgb(30, 219, 15);
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.7em;
+}
+div#menuDiv > ul > a > li:hover{
+    background-color: rgb(1, 56, 76);
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px gold;
+}
+div#menuDiv > ul > a{
+    text-decoration: none;
+    cursor: url('/images/cursor.png'),auto;
+}
+#buildings{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 800px;
+    height: auto;
+    border: 1px silver solid;
+    box-sizing: border-box;
+}
+
+/*buildings css*/
+/*mine*/
+#mine{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#mine > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#mine > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(30, 219, 15);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    color: rgb(30, 219, 15);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+}
+#strusturesTitle{
+    color: darkseagreen;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+.floatElem{
+    float: left;
+}
+/*timer!!!*/
+.timer{
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border: 3px red solid;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.timer > p{
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 5px;
+    color: darkseagreen;
+}
+#upgradeMineButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeMineButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeMineButtonDiv{
+    text-align: center;
+    margin: 5px auto;
+    width: 100%;
+}
+/*rafinery*/
+#rafinery{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#rafinery > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#rafinery > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeRafineryButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeRafineryButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeRafineryButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*farm*/
+#farm{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#farm > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#farm > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeFarmButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeFarmButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeFarmButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*LQ*/
+#livingQuarters{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#livingQuarters > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#livingQuarters > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeLivingQuartersButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeLivingQuartersButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeLivingQuartersButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*storage*/
+#storage{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#storage > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#storage > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeStorageButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeStorageButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeStorageButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*barracks*/
+#barracks{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#barracks > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#barracks > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeBarracksButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeBarracksButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeBarracksButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*range*/
+#range{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#range > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#range > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeRangeButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeRangeButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeRangeButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*machinery*/
+#machinery{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#machinery > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#machinery > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeMachineryButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeMachineryButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeMachineryButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*research lab*/
+#researchLab{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#researchLab > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#researchLab > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeResearchLabButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeResearchLabButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeResearchLabButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*advanced researht centre*/
+#advancedResearchCenter{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#advancedResearchCenter > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#advancedResearchCenter > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeAdvancedResearchCenterButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeAdvancedResearchCenterButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeAdvancedResearchCenterButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+/*bace reinforcement*/
+#baseReinforcement{
+    width: 100%;
+    height: auto;
+    border: 1px salmon solid;
+    box-sizing: border-box;
+}
+#baseReinforcement > .floatElem > img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#baseReinforcement > div.floatElem > p{
+    display: inline-block;
+    width: 630px;
+    height: auto;
+    background-color: black;
+    color: wheat;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+#upgradeBaseReinforcementButton{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#upgradeBaseReinforcementButton:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#upgradeBaseReinforcementButtonDiv{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}

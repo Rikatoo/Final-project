@@ -1,0 +1,20 @@
+#trainRangeUnit1Button{
+    margin-left: 30px;
+    display: inline-block;
+    width: 100px;
+    border: none;
+    cursor: url('/images/cursor.png'),auto;
+    border-radius: 20px;
+    background-color: rgb(173, 0, 0);
+    font-size: 1.3em;
+}
+#trainRangeUnit1Button:hover{
+    box-shadow: 0px 0px 2px 2px grey;
+}
+#trainRangeUnit1ButtonDiv{
+   
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+    width: auto;
+}

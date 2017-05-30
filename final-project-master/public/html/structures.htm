@@ -1,0 +1,168 @@
+<div id="buildings">
+    <h1 id="strusturesTitle">Structures</h1>
+    <div class="timer">
+        <p>Upgrading: {{user[0].upgradeStructureProcess.type}}</p>
+        <p>Level: {{user[0].upgradeStructureProcess.level}}</p>
+        <p>Time left: {{user[0].upgradeStructureProcess.time}}</p>
+    </div>
+    <div id="mine">
+        <h1>Mine</h1>
+        <div class="floatElem">
+            <img src="http://i.imgur.com/RwGWOJy.jpg" alt="mine" />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.mine}}</h2>
+        <div id="upgradeMineButtonDiv">
+            <button id="upgradeMineButton" ng-click="user.startUpgradingStructure('mine')">Upgrade</button>
+        </div>
+    </div>
+    <div id="rafinery">
+        <h1>Refinery</h1>
+        <div class="floatElem">
+            <img src="http://media.indiedb.com/images/games/1/19/18113/refinery_concept.jpg" alt="rafinery" />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.refinery}}</h2>
+        <div id="upgradeRafineryButtonDiv">
+            <button id="upgradeRafineryButton" ng-click="user.startUpgradingStructure('refinery')">Upgrade</button>
+        </div>
+    </div>
+    <div id="farm">
+        <h1>Farm</h1>
+        <div class="floatElem">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScWQkgYGr0u8fmBvHANd2lpFhBlAR-ZLzTfRMnNvL5ZRYPjLd9Tw" alt="farm"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.farm}}</h2>
+        <div id="upgradeFarmButtonDiv">
+            <button id="upgradeFarmButton" ng-click="user.startUpgradingStructure('farm')">Upgrade</button>
+        </div>
+    </div>
+    <div id="livingQuarters">
+        <h1>Living quarters</h1>
+        <div class="floatElem">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/43/fc/22/43fc22843cd82f2053231a45ab90290f.jpg" alt="Living quarters"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.livingQ}}</h2>
+        <div id="upgradeLivingQuartersButtonDiv">
+            <button id="upgradeLivingQuartersButton" ng-click="user.startUpgradingStructure('livingQ')">Upgrade</button>
+        </div>
+    </div>
+    <div id="storage">
+        <h1>Storage</h1>
+        <div class="floatElem">
+            <img src="http://img01.deviantart.net/11e3/i/2010/034/c/f/scifi_door_by_alkapon.jpg" alt="storege" />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.storage}}</h2>
+        <div id="upgradeStorageButtonDiv">
+            <button id="upgradeStorageButton" ng-click="user.startUpgradingStructure('storge')">Upgrade</button>
+        </div>
+    </div>
+    <div id="barracks">
+        <h1>Barracks</h1>
+        <div class="floatElem">
+            <img src="http://pre10.deviantart.net/fe59/th/pre/f/2008/245/9/2/military_bunker_outpost_wip_6a_by_ere4s3r.jpg" alt="barracks"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.barracks}}</h2>
+        <div id="upgradeBarracksButtonDiv">
+            <button id="upgradeBarracksButton" ng-click="user.startUpgradingStructure('barracks')">Upgrade</button>
+        </div>
+    </div>
+    <div id="range">
+        <h1>Range</h1>
+        <div class="floatElem">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTpbR7fGafCNSQM6mp3iOTUmP1HamSsnKf5kFEuq-x-JUYIVVQqIw" alt="range"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.range}}</h2>
+        <div id="upgradeRangeButtonDiv">
+            <button id="upgradeRangeButton" ng-click="user.startUpgradingStructure('range')">Upgrade</button>
+        </div>
+    </div>
+    <div id="machinery">
+        <h1>Machinery</h1>
+        <div class="floatElem">
+            <img src="http://www.onextrapixel.com/wp-content/uploads/2010/03/star-wars.jpg" alt="machinery" />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.machinery}}</h2>
+        <div id="upgradeMachineryButtonDiv">
+            <button id="upgradeMachineryButton" ng-click="user.startUpgradingStructure('machinery')">Upgrade</button>
+        </div>
+    </div>
+    <div id="researchLab">
+        <h1>Research lab</h1>
+        <div class="floatElem">
+            <img src="http://pre05.deviantart.net/fbae/th/pre/i/2014/005/9/2/bio_lab_by_cementiet-d70zk5t.jpg" alt="research lab" />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.research}}</h2>
+        <div id="upgradeResearchLabButtonDiv">
+            <button id="upgradeResearchLabButton" ng-click="user.startUpgradingStructure('research')">Upgrade</button>
+        </div>
+    </div>
+    <div id="advancedResearchCenter">
+        <h1>Advanced research center</h1>
+        <div class="floatElem">
+            <img src="http://pre06.deviantart.net/ca66/th/pre/i/2012/206/d/b/the_cosmic_planetarium_by_elementj21-d281s2q.jpg" alt="Advansed research center"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.specResearch}}</h2>
+        <div id="upgradeAdvancedResearchCenterButtonDiv">
+            <button id="upgradeAdvancedResearchCenterButton" ng-click="user.startUpgradingStructure('specResearch')">Upgrade</button>
+        </div>
+    </div>
+    <div id="baseReinforcement">
+        <h1>Base reinforcement</h1>
+        <div class="floatElem">
+            <img src="https://cdn1.epicgames.com/ue/item/SciFiShieldPack_Thumb-284x284-8ba1b2022c56a858203991eaa55680a0.png" alt="Base reinforcement"
+            />
+        </div>
+        <div class="floatElem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id sint veritatis vel totam qui illum. Iusto molestias
+                dolorum odio repellendus incidunt labore, a error harum dolore, molestiae, repellat rem explicabo!</p>
+        </div>
+        <h2>Level : {{user.structures.wall}}</h2>
+        <div id="upgradeBaseReinforcementButtonDiv">
+            <button id="upgradeBaseReinforcementButton" ng-click="user.startUpgradingStructure('wall')">Upgrade</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+<div id="research">
+    <h1>Research</h1>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/meleResearch"><button class="unitResearchButton">Research mele units</button></a>
+    </div>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/rangeResearch"><button class="unitResearchButton">Research range units</button></a>
+    </div>
+    <div class="unitResearchButtonDiv">
+        <a href="#research/machineResearch"><button class="unitResearchButton">Research machines</button></a>
+    </div>
+        <div class="timer">
+        <p>Researching:</p>
+        <p>Level:</p>
+        <p>Time left:</p>
+    </div>
+    <div class="research1">
+        <h1>Upgrade health</h1>
+        <div class="floatElem">
+            <img src="https://cdn3.iconfinder.com/data/icons/medical-5-1/512/vaccine_wellness_syringe_shot-512.png"
+                alt="health up" />
+        </div>
+        <div class="floatElem">
+            <p>This upgrade will increase the hit points of the range units.</p>
+            </br>
+            <p>Resources required:</p>
+            </br>
+            <h1>Level:{{user.researches.range1.health}}</h1>
+            <div id="researchRangeUnit1ButtonDiv">
+                <button id="researchRangeUnit1Button" ng-click="user.startUpgrading(range1_health)">Research</button>
+            </div>
+        </div>
+        <h2></h2>
+    </div>
+        <div class="research1">
+        <h1>Upgrade attack</h1>
+        <div class="floatElem">
+            <img src="http://steamcommunity-a.akamaihd.net/economy/image/i50WyM_dX7YZsLLvZI6KJcZNl5-DJ6yW-lLxHmiaLE9xxt3H5DZAzVl0Uu2m-PFzSwiJxHMcwwDEFBO9HSY5XFZrJXtn1eFOaQ/256fx256f"
+                alt="attack power up" />
+        </div>
+        <div class="floatElem">
+            <p>This upgrade will increase the attack power of the range units.</p>
+            </br>
+            <p>Resources required:</p>
+            </br>
+            <h1>Level:{{user.researches.range1.attack}}</h1>
+            <div id="researchRangeUnit1ButtonDiv">
+                <button id="researchRangeUnit1Button" ng-click="user.startUpgrading(range1_attack)">Research</button>
+            </div>
+        </div>
+        <h2></h2>
+    </div>
+</div>

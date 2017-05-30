@@ -1,0 +1,257 @@
+html{
+  cursor: url('/images/cursor.png'),auto;
+}
+body {
+  padding: 50px;
+  padding-top:30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/indexBackground.jpg");
+  background-size: auto;
+
+}
+#logInOrCreateAcc{
+  display: initial;
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: #00B7FF;
+}
+/*pop-up require*/
+#greyBody{
+  background-color: grey;
+  z-index: 10;
+}
+#wrapper{
+  width: 1170px;
+  height: auto;
+  /*border: 1px black solid;*/
+  margin: auto;
+  box-sizing: border-box;
+
+}
+#wrapper > div >div > h1{
+  text-align: center;
+  font-size: 8em;
+  color: wheat;
+}
+.buttonsDiv{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.indexButtons{
+  width: 100%;
+  height: auto;
+  width: 200px;
+  font-size: 3em;
+}
+#popUpLogInDiv{
+  display: inline-block;
+  height: auto;
+  width: 250px;
+  padding: 10px;
+  border: 10px inset darkred;
+  border-radius: 5px;
+  background-color: rgb(3, 35, 96);
+  text-align: center;
+  margin-left: 10%;
+}
+#createAccountButtonDiv{
+  display: inline-block;
+  height: auto;
+  width: 400px;
+  padding: 10px;
+  border: 10px inset darkred;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 27%;
+  background-color: rgb(3, 35, 96);
+}
+#popUpLogInButton{
+  width: 100%;
+  font-size: 3em;
+  background: none;
+  border: 0;
+  color: honeydew;
+  cursor: url('/images/cursor.png'),auto;
+}
+.buttonsDiv + h2{
+  display: inline-block;
+  width: 100%;
+  font-size: 3.3em;
+  color: wheat;
+  text-align: center;
+  margin-top: 70px;
+
+}
+#createAccountButton{
+  width: 100%;
+  font-size: 3em;
+  background: none;
+  border: 0;
+  color: honeydew;
+  cursor: url('/images/cursor.png'),auto;
+}
+#createAccountDiv{
+  width: 40%;
+  height: auto;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 5px solid rgb(173, 8, 8);
+  border-radius: 10px;
+  position: absolute;
+  left: 30%;
+  top: 125px;
+  display: none;
+  z-index: 100;
+  background-color:  rgb(3, 35, 96);
+}
+div#createAccountDiv > form > h1 {
+  text-align: center;
+  font-size: 3em;
+   color: wheat;
+}
+.labels{
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+  font-size: 2em;
+  color: wheat;
+}
+.inputs{
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+}
+.inputCursorChange{
+  cursor: url('/images/cursor.png'),auto;
+}
+#submitButtonDiv{
+  text-align: center;
+  margin: 10px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+#submitFormButton{
+  text-align: center;
+  border: 5px solid rgb(222, 234, 84);
+  border-radius: 10px;
+  background-color: rgb(183, 9, 9);
+  font-size: 3em;
+  color:khaki;
+  cursor: url('/images/cursor.png'),auto;
+}
+.xMark{
+  float: right;
+}
+#logInDiv{
+  width: 40%;
+  height: auto;
+  padding: 25px;
+  box-sizing: border-box;
+  border: 5px solid rgb(173, 8, 8);
+  border-radius: 10px;
+  position: absolute;
+  left: 30%;
+  top: 125px;
+  display: none;
+  z-index: 100;
+  background-color:  rgb(3, 35, 96);
+  }
+  div#logInDiv > form > h1 {
+  text-align: center;
+  font-size: 3em;
+   color: wheat;
+}
+#logInButtonDiv{
+  text-align: center;
+  margin: 10px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+#logInButton{
+  text-align: center;
+  border: 5px solid rgb(222, 234, 84);
+  border-radius: 10px;
+  background-color: rgb(183, 9, 9);
+  font-size: 3em;
+  color:khaki;
+  cursor: url('/images/cursor.png'),auto;
+}
+#raceDiv{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  /*border: 1px solid goldenrod;*/
+  background-image: url("/images/raceBackground.jpg");
+  display: none;
+  position: absolute;
+  left: 0%;
+  top: 0px;
+}
+.receArticles{
+  width: 32.5%;
+  height: auto;
+  display: inline-block;
+  /*border: 1px solid aqua;*/
+}
+.receArticles > img{
+  display: block;
+  margin: auto;
+}
+#raceDiv > h1{
+  text-align: center;
+  margin: 10px;
+  font-size: 5em;
+  color: sandybrown;
+}
+.receArticles > p{
+  font-size: 1.5em;
+  padding: 15px;
+  color: wheat;
+  margin: 25px;
+}
+#raceChoosing{
+  margin: auto;
+  width: 43%;
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.raceSpan{
+  font-size: 2em;
+  border: 2px solid yellowgreen;
+  width: 150px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 4px;
+  background-color: darkseagreen;
+  margin: 5px;
+  text-align: center;
+}
+#raceChosenDiv{
+  text-align: center;
+  margin: 10px;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+#raceChosen{
+  text-align: center;
+  border: 5px solid rgb(222, 234, 84);
+  border-radius: 10px;
+  background-color: rgb(3, 165, 68);
+  font-size: 3em;
+  color: rgb(183, 9, 9);
+}
+#chooseARaceXMark{
+  float: right;
+}
+/*nav > img{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}*/
+.cursor{
+  cursor: url('/images/cursor.png'),auto;
+}

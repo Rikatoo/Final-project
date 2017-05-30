@@ -1,0 +1,36 @@
+<div id="trainingUnits">
+    <h1>Training</h1>
+    <div class="unitTrainingButtonDiv">
+        <a href="#training/meleTraining"><button class="unitTrainingButton">Train mele units</button></a>
+    </div>
+    <div class="unitTrainingButtonDiv">
+        <a href="#training/rangeTraining"><button class="unitTrainingButton">Train range units</button></a>
+    </div>
+    <div class="unitTrainingButtonDiv">
+        <a href="#training/machineTraining"><button class="unitTrainingButton">Build machines</button></a>
+    </div>
+    <div class="timer">
+        <p>Training: </p>
+        <p>Quantity: {{user[0].trainMeleeProcess.count}}</p>
+        <p>Time left: {{user[0].trainMeleeProcess.time}}</p>
+    </div>
+    <div class="unit1">
+        <h1>Infantry</h1>
+        <div class="floatElem">
+            <img src="./images/mele-range2.jpg" alt="terran infantry" />
+        </div>
+        <div class="floatElem">
+            <p>This is the basic infantry unit for the terran race.</p>
+            </br>
+            <p>Resources required:</p>
+            </br>
+            <input placeholder="enter the amount units to train" type="number" min="1"></input>
+            <div class="maxNumberOfUnitsToTrainDiv">
+                <button class="maxNumberOfUnitsToTrainButton">Max</button>
+            </div>
+            <div id="trainMeleUnit1ButtonDiv">
+                <button id="trainMeleUnit1Button" ng-click="user.startTraining('melee1', '1')">Train</button>
+            </div>
+        </div>
+        <h2></h2>
+    </div>
